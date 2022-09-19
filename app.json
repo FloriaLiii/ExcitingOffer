@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/index",
+    "pages/user/problem_list/index",
+    "pages/user/sign/index",
+    "pages/user/collect/index",
+    "pages/user/star/index",
+    "pages/user/note/details_note/index",
+    "pages/user/note/details_plan/index",
+    "pages/user/note/add_note/index",
+    "pages/user/note/add_plan/index",
+    "pages/recommended/details_ref/index",
+    "pages/news/index",
+    "pages/news/details_news/index",
+    "pages/work/index",
+    "pages/user/book/index",
+    "pages/user/about/about",
+    "pages/user/plan/index",
+    "pages/user/note/index",
+    "pages/work/details_work/index",
+    "pages/work/details_teachin/index",
+    "pages/recommended/index",
+    "pages/recommended/fl_problem/index",
+    "pages/recommended/details_ans/index",
+    "pages/recommended/resume/index",
+    "pages/work/search/index",
+    "pages/review/details_ans/index",
+    "pages/review/mbti/index/index",
+    "pages/review/mbti/result/result",
+    "pages/review/mbti/test/test",
+    "pages/review/details_pro/index",
+    "pages/review/fl_problem/index",
+    "pages/review/mbti/introduction/intr1",
+    "pages/review/mbti/introduction/intr2",
+    "pages/review/mbti/introduction/intr3",
+    "pages/review/mbti/more/more",
+    "pages/review/mbti/more/rec",
+    "pages/recommended/salary/salary"
+  ],
+  "window": {
+    "backgroundColor": "#f7f7f7",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#A3D5C8",
+    "navigationBarTitleText": "令人心动的offer",    
+    "navigationBarTextStyle": "white"
+  },
+  "usingComponents": {},
+  "permission": {
+    "scope.userLocation": {
+      "desc": "定位以获取当前位置天气信息"
+    }
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

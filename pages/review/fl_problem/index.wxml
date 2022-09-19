@@ -1,0 +1,33 @@
+<view class="main">
+	<view class="servic_top">
+
+		<view class="servic_top_Dl">
+			<view>
+				<view class="servic_top_tw">{{ pro_length}}</view>
+				<view class="servic_top_tw2">题库总题数</view>
+			</view>
+			<view>
+				<view class="servic_top_tw3">当你觉得为时已晚</view>
+				<view class="servic_top_tw3">那恰恰是最早的时刻</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="pro_list" data-id="{{items._id}}" data-limt="{{index}}" wx:for="{{xw_list}}" wx:key="this"
+		wx:for-item="items" bindtap="tz" data-a="review/details_pro/index">
+		<view class="pro_list_wz">第{{index+1}}题</view>
+		<view class="pro_list_wz_mc">{{items.problem}}</view>
+		<view class="pro_list_wz_rs">
+			{{items.statr||m1.format()}}人面试遇见
+		</view>
+		<view class="clean"></view>
+	</view>
+	<view>
+	</view>
+</view>
+<wxs module="m1">
+	function format(ts) {
+		return Math.floor((Math.random() * 100))
+	}
+	module.exports.format = format
+</wxs>

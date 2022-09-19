@@ -1,0 +1,21 @@
+<view class='margin-xl bg-white padding-xl radius shadow-lg'>
+	<view class='text-center margin-bottom text-xl  text-green'>关于令人心动的offer</view>
+	<view class='text-content'>
+		<view class='text-center'>欢迎使用令人心动的offer小程序！</view>
+		<view class='margin-top-sm text-center'>开发成员： 黎康珏</view>
+	</view>
+</view>
+
+<view class='margin-xl bg-white padding-xl radius shadow-lg'>
+	<view class='text-center margin-bottom text-xl  text-green'>感谢</view>
+	<view class='text-content'>
+		<view class='text-center'>ColorUI</view>
+		<view class='text-center'>Vant</view>
+		<view class='text-center'>treeworld_Applets</view>
+	</view>
+</view>
+
+<view class='margin-xl bg-white padding-xl radius shadow-lg'>
+	<view class='text-center margin-bottom text-xl  text-green'>学年设计项目已展示完毕</view>
+	<view class='text-center margin-bottom text-xl  text-green'>恳请老师批评指正！</view>
+</view>
